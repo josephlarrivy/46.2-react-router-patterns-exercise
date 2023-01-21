@@ -4,16 +4,10 @@ import './Nav.css'
 
 function Nav() {
     return (
-        <ul>
-            <li>navbar</li>
-            {/* <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/blog">Blog</Link></li>
-            <li><Link to="/blargh">Broken Link</Link></li> */}
-        </ul>
+        <>
+            <h4><Link to="/dogs">Home - Dog List</Link></h4>
+        </>
     );
 }
-// end
 
 export default Nav;

@@ -1,7 +1,7 @@
 import './App.css';
 import Nav from "./Nav";
-import { BrowserRouter } from 'react-router-dom';
 import Routes from './Routes';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       </BrowserRouter>
     </div>
   );
-
-  
 }
+
+
 
 export default App;
