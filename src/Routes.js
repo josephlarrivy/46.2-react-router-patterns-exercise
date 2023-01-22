@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import DogList from "./DogList";
-import DogDetails from "./DogDetails";
+import ReturnDogRoutes from "./ReturnDogNameRoutes";
 
 const Routes = () => {
 
@@ -12,8 +12,7 @@ const Routes = () => {
             {/* // what props will this need? */}
         </Route>
         <Route path="/dogs/:name" >
-            <DogDetails />
-            {/* // what props will this need? */}
+            <ReturnDogRoutes />
         </Route>
         <Redirect to="/dogs" />
     </Switch>
